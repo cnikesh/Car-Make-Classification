@@ -3,17 +3,8 @@
 
 This project focuses on developing deep learning models to classify car makes and detect the angle of the car in an image. Using a combination of convolutional neural networks and data preprocessing techniques, the project aims to accurately predict both **the make (manufacturer)** and **viewing angle** of cars from images.
 
-The repository contains two main Jupyter notebooks, each handling a specific part of the pipeline.
+The repository contains two main Jupyter notebooks, each handling a specific part of the pipeline and an android project implementing the trained model as a mobile application.
 
-## Project Structure
-
-```
-📦 Car-Make-Classification
-├── DL_Project Angle Detection.ipynb
-├── DL_Project Angle based classification models.ipynb
-├── README.md
-└── (Your dataset and model checkpoints - not included here)
-```
 
 ## Notebooks Overview
 
@@ -38,8 +29,7 @@ The repository contains two main Jupyter notebooks, each handling a specific par
 
 - 📊 **Angle-based classification:** Improve prediction accuracy by incorporating car angle information.
 - 🧩 **Custom CNN models:** Tailored deep learning architectures for image classification.
-- 🖼️ **Data augmentation:** Robust training with various augmentation techniques.
-- 📈 **Evaluation metrics:** Accuracy scores and loss tracking for both models.
+- 📲 **Android Application:** Implemented as an mobile application for real-world usage.
 
 ## Installation & Setup
 
@@ -57,16 +47,6 @@ The repository contains two main Jupyter notebooks, each handling a specific par
 3. Add your dataset in the project directory (make sure to update the paths in the notebooks accordingly).
 
 4. Run the notebooks step by step to train and evaluate the models.
-
-## Requirements
-
-- Python 3.7+
-- TensorFlow / Keras
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- (Add any additional dependencies in `requirements.txt`)
 
 ## Results
 
@@ -88,4 +68,4 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ## Author
 
 **Nikesh Chithambaram**  
-[LinkedIn](https://www.linkedin.com/in/nikesh-chithambaram/) • [GitHub](https://github.com/cnikesh)
+[LinkedIn](https://www.linkedin.com/in/nikeshchithambaram/) • [GitHub](https://github.com/cnikesh)
