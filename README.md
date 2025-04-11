@@ -4,11 +4,11 @@
 
 This project aims to create a robust and efficient real-time car classification system, capable of processing live camera input and providing instantaneous predictions on the Year, Model, and Make of cars. By leveraging deep learning techniques, the system is designed for practical applications such as:
 
-    🚓 Crime scene investigations
+🚓 Crime scene investigations
 
-    🚦 Traffic monitoring
+🚦 Traffic monitoring
 
-    🏭 Inventory management in automotive sectors
+🏭 Inventory management in automotive sectors
 
 Incorporating angle detection into the pipeline further enhances the prediction accuracy, making the system reliable in diverse environments and viewing conditions.
 Methodology
@@ -18,11 +18,11 @@ The dataset is carefully structured with class-specific folders and angle-specif
 
 Key highlights of the approach:
 
-    📂 Custom hierarchical dataset — organized by make, model, year, and angle for better generalization.
+📂 Custom hierarchical dataset — organized by make, model, year, and angle for better generalization.
 
-    🧩 CNN-based architecture — learns hierarchical representations for robust classification.
+🧩 CNN-based architecture — learns hierarchical representations for robust classification.
 
-    🎥 Real-time processing capability — suitable for deployment with live camera feeds.
+🎥 Real-time processing capability — suitable for deployment with live camera feeds.
 
 
 ## Notebooks Overview
