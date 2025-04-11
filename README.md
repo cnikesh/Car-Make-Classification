@@ -1,6 +1,6 @@
 
 
-#🚗 Car Make, Model & Year Classification with Angle Detection 🔍
+# 🚗 Car Make, Model & Year Classification with Angle Detection 🔍
 
 This project aims to create a robust and efficient real-time car classification system, capable of processing live camera input and providing instantaneous predictions on the Year, Model, and Make of cars. By leveraging deep learning techniques, the system is designed for practical applications such as:
 
