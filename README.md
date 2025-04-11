@@ -61,6 +61,8 @@ Key highlights of the approach:
 
 3. Run the notebooks step by step to train and evaluate the models.
 
+4. Place the model files in "app/src/ml" folder in the android project.
+
 ## Results
 
 - Achieved high accuracy for both angle detection and make classification models.
