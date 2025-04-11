@@ -1,9 +1,28 @@
 
-# Car Make & Angle Classification 🚗🔍
 
-This project focuses on developing deep learning models to classify car makes and detect the angle of the car in an image. Using a combination of convolutional neural networks and data preprocessing techniques, the project aims to accurately predict both **the make (manufacturer)** and **viewing angle** of cars from images.
+#🚗 Car Make, Model & Year Classification with Angle Detection 🔍
 
-The repository contains two main Jupyter notebooks, each handling a specific part of the pipeline and an android project implementing the trained model as a mobile application.
+This project aims to create a robust and efficient real-time car classification system, capable of processing live camera input and providing instantaneous predictions on the Year, Model, and Make of cars. By leveraging deep learning techniques, the system is designed for practical applications such as:
+
+    🚓 Crime scene investigations
+
+    🚦 Traffic monitoring
+
+    🏭 Inventory management in automotive sectors
+
+Incorporating angle detection into the pipeline further enhances the prediction accuracy, making the system reliable in diverse environments and viewing conditions.
+Methodology
+
+The system employs Convolutional Neural Networks (CNNs) as its core architecture, which are highly effective in extracting and learning visual patterns from images.
+The dataset is carefully structured with class-specific folders and angle-specific subfolders to guide the model in learning not only the characteristics of different car makes, models, and years but also their variations based on viewing angles.
+
+Key highlights of the approach:
+
+    📂 Custom hierarchical dataset — organized by make, model, year, and angle for better generalization.
+
+    🧩 CNN-based architecture — learns hierarchical representations for robust classification.
+
+    🎥 Real-time processing capability — suitable for deployment with live camera feeds.
 
 
 ## Notebooks Overview
