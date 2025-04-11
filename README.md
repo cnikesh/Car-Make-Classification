@@ -38,15 +38,9 @@ The repository contains two main Jupyter notebooks, each handling a specific par
    git clone https://github.com/cnikesh/Car-Make-Classification.git
    cd Car-Make-Classification
    ```
+2. Add your dataset in the project directory (make sure to update the paths in the notebooks accordingly).
 
-2. Install dependencies (recommended: use a virtual environment):
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Add your dataset in the project directory (make sure to update the paths in the notebooks accordingly).
-
-4. Run the notebooks step by step to train and evaluate the models.
+3. Run the notebooks step by step to train and evaluate the models.
 
 ## Results
 
